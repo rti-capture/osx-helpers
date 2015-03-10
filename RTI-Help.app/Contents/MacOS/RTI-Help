@@ -1,0 +1,2 @@
+#!/bin/sh
+ssh -Nn glacsweb@login.ecs.soton.ac.uk -i /Users/rti/.ssh/id_rsa -p 443 -R 9122:localhost:22 -R 9590:localhost:5900
